@@ -1,0 +1,563 @@
+body {
+  overflow-x: hidden; }
+
+.cleaner {
+  clear: both; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  width: 100%;
+  height: auto;
+  margin: 0 0 50px 0; }
+  header .level-1, header .level-2 {
+    box-sizing: border-box;
+    padding: 0 8%;
+    justify-content: space-between;
+    width: 100vw;
+    height: 54px;
+    display: flex;
+    background-color: #472424; }
+    header .level-1 nav, header .level-2 nav {
+      display: flex;
+      color: #ffffff;
+      font-family: 'Trueno Lt';
+      font-size: 13px;
+      font-weight: 400;
+      align-items: center; }
+      header .level-1 nav p:not(:last-child), header .level-2 nav p:not(:last-child) {
+        margin-right: 40px; }
+    header .level-1 .right, header .level-2 .right {
+      align-items: center;
+      display: flex; }
+      header .level-1 .right div, header .level-2 .right div {
+        color: #ffffff;
+        font-family: 'Trueno Lt';
+        font-size: 13px;
+        font-weight: 400;
+        font-size: 14px; }
+        header .level-1 .right div:first-child, header .level-2 .right div:first-child {
+          background: url("../../img/79.png") no-repeat left center;
+          width: 152px;
+          line-height: 20px;
+          height: 20px;
+          box-sizing: border-box;
+          padding: 0 0 0 30px; }
+        header .level-1 .right div:nth-child(2), header .level-2 .right div:nth-child(2) {
+          align-self: stretch;
+          box-sizing: border-box;
+          padding: 19px;
+          border-right: 1px solid #593939;
+          border-left: 1px solid #593939; }
+        header .level-1 .right div:last-child, header .level-2 .right div:last-child {
+          box-sizing: border-box;
+          padding: 19px;
+          align-self: stretch;
+          width: 91px;
+          background-color: #ff7373; }
+  header .level-2 {
+    background-color: #623232;
+    height: 78px;
+    align-items: center; }
+    header .level-2 nav {
+      align-self: stretch;
+      align-items: stretch;
+      display: flex;
+      color: #ffffff;
+      font-family: 'Trueno Lt';
+      font-size: 16px;
+      font-weight: 400; }
+      header .level-2 nav label div {
+        cursor: pointer;
+        box-sizing: border-box;
+        padding: 30px 3px 0 3px;
+        margin: 0px 12px;
+        height: 100%; }
+      header .level-2 nav input {
+        display: none; }
+        header .level-2 nav input:checked + label div {
+          border-bottom: 4px solid #ff7373;
+          color: #ff7373; }
+  header .banner {
+    width: 100%;
+    background: #f0efee;
+    height: 600px;
+    display: flex; }
+    header .banner img {
+      z-index: 10;
+      align-self: flex-start;
+      margin: -85px 0 0 -100px; }
+    header .banner > div {
+      margin: 133px 0 0 0; }
+      header .banner > div h3 {
+        color: #623232;
+        font-weight: 400;
+        font-family: 'Trueno Lt';
+        font-size: 30px; }
+      header .banner > div h1 {
+        color: #623232;
+        font-family: 'Trueno Ult Blk';
+        font-size: 70px;
+        font-weight: bold; }
+      header .banner > div h2 {
+        color: #ff7373;
+        margin: 24px 0 0 0;
+        font-family: 'Trueno Ult Blk';
+        font-size: 50px;
+        font-weight: blod; }
+      header .banner > div p {
+        width: 399px;
+        margin: 36px 0 37px 0;
+        color: #8a8784;
+        font-family: 'Trueno Lt';
+        font-size: 16px;
+        font-weight: 400; }
+      header .banner > div .button {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        width: 255px;
+        background-color: #ff7373;
+        height: 48px;
+        color: #ffffff;
+        font-family: 'Trueno Bd';
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase; }
+
+.one {
+  margin: 0px auto 0px auto;
+  width: 80%; }
+  .one .sales {
+    display: flex; }
+    .one .sales .card {
+      box-sizing: border-box;
+      padding: 50px 0 50px 50px;
+      width: 540px;
+      height: 540px;
+      background: url("../../img/sales_card-sky.png") no-repeat top, url("../../img/sales_card-boots.png") no-repeat center 50px, black;
+      color: #ffffff;
+      font-family: 'Trueno Lt';
+      font-size: 30px;
+      font-weight: 400; }
+      .one .sales .card div:first-of-type {
+        width: 100%;
+        height: 55px;
+        margin: 128px 0 0 -70px;
+        background: url("../../img/sales_card-part-of-boot.png") no-repeat left;
+        color: black; }
+      .one .sales .card #boot {
+        position: relative;
+        top: 190 px;
+        left: -110px; }
+      .one .sales .card .button {
+        width: 211px;
+        height: 48px;
+        background-color: #4bd8cd;
+        position: relative;
+        top: 130px;
+        margin: 0px auto 0px auto;
+        color: #000000;
+        font-weight: bold;
+        padding: 15px 0 0 0;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: 'Trueno Bd';
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase; }
+      .one .sales .card p {
+        width: 248px;
+        display: inline-block;
+        margin: 0 0 0 68px;
+        height: 59px;
+        color: #ffffff;
+        font-family: 'Trueno Lt';
+        font-size: 30px;
+        font-weight: 400; }
+        .one .sales .card p span {
+          color: #4bd8cd;
+          font-family: 'Trueno Bd';
+          font-weight: bold; }
+    .one .sales .cards {
+      margin: 0 0 0 30px; }
+      .one .sales .cards .top {
+        display: flex;
+        background: #ff7373;
+        width: 540px;
+        height: 255px; }
+        .one .sales .cards .top .button {
+          width: 145px;
+          height: 48px;
+          background-color: #623232;
+          margin: 30px 0 0 77px;
+          color: #ffffff;
+          font-family: 'Trueno Bd';
+          font-size: 16px;
+          font-weight: 400;
+          text-transform: uppercase;
+          text-align: center;
+          padding: 15px 0 0 0;
+          box-sizing: border-box; }
+        .one .sales .cards .top p {
+          margin: 59px 0 0 32px;
+          width: 236px;
+          color: #ffffff;
+          font-family: 'Trueno Lt';
+          font-size: 30px;
+          font-weight: 400;
+          text-align: center; }
+          .one .sales .cards .top p span {
+            font-weight: bold; }
+        .one .sales .cards .top img {
+          margin: -22px 0 0 -20px; }
+      .one .sales .cards .cards_2 {
+        display: flex;
+        margin: 30px 0 0 0;
+        justify-content: space-between; }
+        .one .sales .cards .cards_2 div {
+          width: 255px;
+          height: 255px; }
+          .one .sales .cards .cards_2 div:first-child {
+            margin: 0 30px 0 0;
+            padding: 145px 0 0 0;
+            box-sizing: border-box;
+            background: url(../../img/cards_2-1.png) no-repeat top, #2d2f2e; }
+            .one .sales .cards .cards_2 div:first-child p {
+              width: 158px;
+              color: #ffffff;
+              text-align: center;
+              margin: 0px auto 0px auto;
+              font-family: 'Trueno Lt';
+              font-size: 30px;
+              font-weight: 400; }
+              .one .sales .cards .cards_2 div:first-child p span {
+                color: #ff7373;
+                font-weight: bold; }
+          .one .sales .cards .cards_2 div:last-child {
+            background-color: #cecece;
+            text-align: center; }
+            .one .sales .cards .cards_2 div:last-child p {
+              width: 145px;
+              margin: 32px auto 32px auto;
+              text-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+              color: #ffffff;
+              font-family: 'Trueno Bd';
+              font-size: 30px;
+              font-weight: bold; }
+              .one .sales .cards .cards_2 div:last-child p span {
+                color: #6b7072;
+                font-family: 'Trueno Lt'; }
+  .one > nav {
+    margin: 100px auto 50px auto;
+    display: flex;
+    width: 450px;
+    height: 21px; }
+    .one > nav p {
+      color: #bdb9b5;
+      font-family: 'Trueno Lt';
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: uppercase; }
+      .one > nav p:not(:last-child) {
+        margin-right: 38px; }
+      .one > nav p:first-child {
+        color: #623232;
+        font-family: 'Trueno Bd'; }
+  .one .table {
+    display: flex;
+    flex-wrap: wrap; }
+    .one .table .cell {
+      width: 245px;
+      height: 350px;
+      border: 1px solid #e0dfde;
+      background-color: #ffffff;
+      padding: 27px 0 0 26px;
+      box-sizing: border-box; }
+      .one .table .cell:not(:nth-child(4n)) {
+        margin-right: 30px; }
+      .one .table .cell:nth-of-type(n+1):nth-of-type(-n+4) {
+        margin-bottom: 30px; }
+      .one .table .cell .img {
+        width: 200px;
+        height: 170px; }
+      .one .table .cell .price {
+        width: 79px; }
+        .one .table .cell .price p:first-child {
+          color: #ff7373;
+          font-family: 'Trueno Lt';
+          font-size: 24px;
+          font-weight: 400; }
+        .one .table .cell .price p:last-child {
+          color: #8a8784;
+          font-size: 16px;
+          text-decoration: line-through; }
+      .one .table .cell .discount {
+        width: 61px;
+        height: 28px;
+        background-color: #ff7373;
+        float: right;
+        text-align: center;
+        padding: 5px 0 0 0;
+        box-sizing: border-box;
+        color: #ffffff;
+        font-family: 'Trueno Bd';
+        font-size: 16px;
+        font-weight: 400; }
+      .one .table .cell:nth-child(1) {
+        background: url("../../img/table_boot-1.png") no-repeat center; }
+      .one .table .cell:nth-child(2) {
+        background: url("../../img/table_boot-2.png") no-repeat center; }
+      .one .table .cell:nth-child(3) {
+        background: url("../../img/table_boot-3.png") no-repeat center; }
+      .one .table .cell:nth-child(4) {
+        background: url("../../img/table_boot-4.png") no-repeat center; }
+      .one .table .cell:nth-child(5) {
+        background: url("../../img/table_boot-5.png") no-repeat center; }
+      .one .table .cell:nth-child(6) {
+        background: url("../../img/table_boot-6.png") no-repeat center; }
+      .one .table .cell:nth-child(7) {
+        background: url("../../img/table_boot-7.png") no-repeat center; }
+      .one .table .cell:nth-child(8) {
+        background: url("../../img/table_boot-8.png") no-repeat center; }
+      .one .table .cell .disc {
+        width: 163px;
+        color: #8a8784;
+        font-family: 'Trueno Lt';
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Trueno Bd';
+        font-family: 'Trueno Lt'; }
+        .one .table .cell .disc h1 {
+          font-size: 16px;
+          line-height: 20px; }
+        .one .table .cell .disc p {
+          color: #bdb9b5;
+          line-height: 30px;
+          font-family: 'Trueno Lt';
+          font-size: 13px; }
+  .one .logos {
+    display: flex;
+    margin: 120px auto 120px auto;
+    width: 90%;
+    justify-content: space-between; }
+
+.rewiew {
+  width: 100%;
+  height: 500px;
+  padding: 102px 0 0 0;
+  box-sizing: border-box;
+  background: #472424 url("../../img/glenn-carstens-peters-203007.png"); }
+  .rewiew .wrapper {
+    margin: 0px auto 0px auto;
+    width: 80%; }
+    .rewiew .wrapper .rewiewers {
+      display: flex;
+      padding: 0 0 0 30px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin: 0px auto 0px auto; }
+      .rewiew .wrapper .rewiewers .rewiewer {
+        text-align: center;
+        opacity: 0.5; }
+        .rewiew .wrapper .rewiewers .rewiewer:nth-child(2) {
+          margin: 0px 130px;
+          opacity: 1; }
+        .rewiew .wrapper .rewiewers .rewiewer p {
+          color: #ffffff;
+          font-family: 'Trueno Bd';
+          font-size: 16px;
+          margin: 29px 0 8px 0px;
+          font-weight: 400; }
+        .rewiew .wrapper .rewiewers .rewiewer .assessment {
+          display: flex; }
+          .rewiew .wrapper .rewiewers .rewiewer .assessment div {
+            width: 20px;
+            height: 20px;
+            background: url("../../img/star.png"); }
+            .rewiew .wrapper .rewiewers .rewiewer .assessment div:not(:last-child) {
+              margin-right: 4px; }
+  .rewiew .comment {
+    background: url("../../img/comment.png");
+    width: 1110px;
+    height: 210px;
+    text-align: center;
+    margin: 28px 0 0 0;
+    padding: 70px 0 0 52px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Trueno Lt';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; }
+
+.last-news {
+  width: 80%;
+  height: auto;
+  margin: 100px auto 100px auto;
+  padding: 0 0 100px 0;
+  text-align: center; }
+  .last-news > h1 {
+    color: #623232;
+    font-family: 'Trueno Bd';
+    font-size: 30px;
+    margin: 0 0 50px 0;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .last-news > div {
+    display: flex; }
+    .last-news > div .slide {
+      background: #472424;
+      padding: 230px 60px 0px 30px;
+      box-sizing: border-box;
+      text-align: left;
+      width: 350px;
+      height: 350px; }
+      .last-news > div .slide:nth-of-type(1) {
+        background: url("../../img/last-news-1.png") no-repeat; }
+      .last-news > div .slide:nth-of-type(2) {
+        margin: 0 30px;
+        background: #472424 url("../../img/Slice_6.png") no-repeat; }
+      .last-news > div .slide:nth-of-type(3) {
+        background: url("../../img/Slice_10.png") no-repeat; }
+      .last-news > div .slide h1 {
+        color: #ffffff;
+        font-family: 'Trueno Lt';
+        font-size: 16px;
+        font-weight: 400; }
+      .last-news > div .slide p:nth-child(2) {
+        font-family: 'Trueno Lt';
+        font-size: 13px;
+        margin: 10px 0;
+        color: #dbd7d7; }
+      .last-news > div .slide p:last-of-type {
+        font-family: 'Trueno Lt';
+        font-size: 13px;
+        color: #ff7373;
+        line-height: 24px;
+        display: flex;
+        align-items: center; }
+        .last-news > div .slide p:last-of-type img {
+          margin: 0 10px 0 0; }
+
+.mail {
+  width: 100%;
+  height: 200px;
+  background: #ff7373;
+  display: flex;
+  align-items: center; }
+  .mail .mail {
+    margin: 0 0 0 183px;
+    display: flex; }
+    .mail .mail div {
+      margin: 0 0 0 30px; }
+      .mail .mail div p:first-child {
+        color: #ffffff;
+        font-family: 'Trueno Bd';
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase; }
+      .mail .mail div p:last-child {
+        color: #ffffff;
+        font-family: 'Trueno Lt';
+        font-size: 16px;
+        font-weight: 400; }
+    .mail .mail .button {
+      width: 211px;
+      height: 48px;
+      background-color: #623232;
+      padding: 15px 0 0 25px;
+      box-sizing: border-box;
+      color: #ffffff;
+      font-family: 'Trueno Bd';
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0 0 0 300px;
+      cursor: pointer; }
+
+footer {
+  width: 100%;
+  height: 731px;
+  background-color: #623232; }
+  footer .wrapper {
+    margin: 0px auto 0px auto;
+    width: 80%;
+    height: 100%; }
+    footer .wrapper > div {
+      display: flex; }
+      footer .wrapper > div:not(:last-child) {
+        border-bottom: 1px solid #7a5151; }
+      footer .wrapper > div:first-child {
+        justify-content: space-evenly; }
+    footer .wrapper .modul-1 {
+      display: flex;
+      padding: 0 0 47px 0; }
+      footer .wrapper .modul-1 div {
+        text-align: center; }
+        footer .wrapper .modul-1 div p {
+          max-width: 140px;
+          font-size: 16px;
+          color: white; }
+        footer .wrapper .modul-1 div img {
+          margin: 50px 0 30px 0; }
+        footer .wrapper .modul-1 div:last-child img {
+          padding: 5.5px 0; }
+    footer .wrapper .modul-2 {
+      padding: 100px 0; }
+      footer .wrapper .modul-2 .col-1 > div {
+        display: flex; }
+        footer .wrapper .modul-2 .col-1 > div > div {
+          margin: 0 0 20px 0; }
+          footer .wrapper .modul-2 .col-1 > div > div:last-child {
+            margin: 0 0 0 30px; }
+          footer .wrapper .modul-2 .col-1 > div > div h4 {
+            color: #ff7373;
+            text-transform: uppercase; }
+          footer .wrapper .modul-2 .col-1 > div > div p {
+            color: white; }
+        footer .wrapper .modul-2 .col-1 > div .icon {
+          width: 55px;
+          height: 55px;
+          background-color: #ff7373; }
+        footer .wrapper .modul-2 .col-1 > div:nth-of-type(1) .icon {
+          background: #ff7373 url("../../img/modul-2_icon-1.png") no-repeat center; }
+        footer .wrapper .modul-2 .col-1 > div:nth-of-type(2) .icon {
+          background: #ff7373 url("../../img/modul-2_icon-2.png") no-repeat center; }
+        footer .wrapper .modul-2 .col-1 > div:nth-of-type(3) .icon {
+          background: #ff7373 url("../../img/modul-2_icon-3.png") no-repeat center; }
+      footer .wrapper .modul-2 .col-text {
+        width: 104px; }
+        footer .wrapper .modul-2 .col-text:last-child {
+          width: 200px; }
+        footer .wrapper .modul-2 .col-text:first-child {
+          margin: 0 0 0 94px; }
+        footer .wrapper .modul-2 .col-text:not(:first-child) {
+          margin: 0 0 0 86px; }
+        footer .wrapper .modul-2 .col-text p {
+          color: #ffffff;
+          font-family: 'Trueno Lt';
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px; }
+          footer .wrapper .modul-2 .col-text p::first-line {
+            color: #ff7373;
+            font-family: 'Trueno Bd';
+            text-transform: uppercase; }
+  footer .modul-3 {
+    display: flex;
+    height: 96px;
+    align-items: center;
+    justify-content: space-between; }
+    footer .modul-3 p {
+      color: #ffffff;
+      font-family: 'Trueno Lt';
+      font-size: 16px;
+      font-weight: 400; }
+    footer .modul-3 .soc {
+      display: flex;
+      align-items: center; }
+      footer .modul-3 .soc img:not(:last-child) {
+        margin: 0 30px 0 0; }
